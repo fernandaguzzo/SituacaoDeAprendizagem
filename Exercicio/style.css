@@ -1,0 +1,50 @@
+html {
+    background: #D0E4AE;
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+    
+    h1 {
+        color: #194b32;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        padding: 30px;
+    }
+
+    body, h2, button {
+    font-family: 'Poppins';
+    }
+    
+   
+    button {
+    width: 350px;
+    border-radius: 50px;
+    }
+    
+    .borda-lista {
+    border-bottom: ridge 2px rgb(86, 85, 85);
+    }
+    
+    input:disabled {
+    border: none;
+    background: none;
+    color: black;
+    }
+    
+    input {
+    border: none;
+    background: none;
+    color: black;
+    font-family: 'Poppins';
+    }
+   
+    .titulo-lista {
+        color: rgb(199, 180, 10);
+    }
+
+    .navbar-item {
+        text-decoration: none !important;
+        color:#194b32 !important;
+        font-weight: bold;
+    }

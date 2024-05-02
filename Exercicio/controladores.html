@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Patrimônios</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+</head>
+<body class="has-text-grey hero">
+    <main class="column is-7 hero-body is-offset-one-fifth is-unselectable">
+        <h1>Laboratório de Controladores</h1>
+        <form id="form-patrimonios" class="has-text-centered">
+            <input type="text" class="input has-text-centered" required placeholder="Digite o patrimônio que deseja adicionar" id="receber-patrimonio">
+            <button type="submit" class="mt-2 has-text-weight-bold button is-small is-primary">Salvar Patrimônio</button>
+        </form> 
+        <div class="has-background-white mt-4">
+            <div>
+                <h2 class="has-text-weight-bold is-size-4 ml-2 titulo-lista">Lista de Patrimônios</h2>
+                <ul class="mx-2 borda-lista" id="lista-de-patrimonios"></ul>
+            </div>
+            <section class="pb-2">
+                <h2 class="has-text-weight-bold is-size-4 ml-2 titulo-lista">Patrimônios Localizados</h2>
+                <ul class="mx-2 borda-lista" id="patrimonios-verificados"></ul>
+            </section>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
